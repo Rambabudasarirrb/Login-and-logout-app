@@ -1,0 +1,30 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(#2b2c49, #b5b9ff);
+  height: 450px;
+  width: 450px;
+  border-radius: 10px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  color: #ffffff;
+}
+.home-btn {
+  height: 50px;
+  width: 120px;
+  background-color: #ffffff;
+  color: #303150;
+  border: none;
+  border-radius: 15px;
+}
